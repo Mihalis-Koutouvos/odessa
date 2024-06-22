@@ -1,0 +1,94 @@
+{
+  "intents": [
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "How are you?",
+        "How are you doing?",
+        "Yo",
+        "Good morning",
+        "Good afternoon",
+        "Good morning",
+        "Hey there",
+        "Howdy",
+        "Greetings",
+        "Ahoy",
+        "How is it going?",
+        "Hi, I think I have a problem.",
+        "Hello, can you help me?"
+      ],
+      "responses": [
+        "Hi!",
+        "Hi",
+        "Hello, thank you for stopping by to say hello.",
+        "Hi, how may I help you?",
+        "Hello, how may I assist you?",
+        "Hey, what seems to be the problem?",
+        "Of course! What would you like assistance with?",
+        "I am doing just fine! What about you?",
+        "Would you happen to have any questions for me?"
+      ]
+    },
+    {
+      "tag": "end_conversation",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "Talk to you later",
+        "See you later",
+        "See you soon!",
+        "Until next time.",
+        "It has been a pleasure!"
+      ],
+      "responses": [
+        "You are welcome",
+        "You're welcome",
+        "My pleasure",
+        "No problem!",
+        "Of course",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "acknowledgment",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+    {
+      "tag": "treatment_discussion",
+      "patterns": [
+        "I would like to talk about a potential injury.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "responses": [
+
+      ]
+    },
+    {
+      "tag": "referral",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    }
+  ]
+}
