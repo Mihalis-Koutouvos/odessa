@@ -89,12 +89,15 @@
       ]
     },
         {
-      "tag": "flu_discussion",
+      "tag": "flu_definition",
       "patterns": [
-
+        "What is the flu?",
+        "Could you define the flu?",
+        "Explain the flu to me.",
+        "Flu?"
       ],
       "responses": [
-
+        "The flu is an illness that affects the respiratory system, which can affect areas such as the nose, throat, and lungs."
       ]
     },
         {
@@ -125,9 +128,12 @@
       ]
     },
         {
-      "tag": "cold_discussion",
+      "tag": "cold_definition",
       "patterns": [
-
+        "What is a cold?",
+        "Could you define a cold?",
+        "Explain a cold to me.",
+        "Cold?"
       ],
       "responses": [
 
@@ -161,9 +167,20 @@
       ]
     },
         {
-      "tag": "c19_discussion",
+      "tag": "c19_definition",
       "patterns": [
-
+        "What is COVID-19?",
+        "Could you define COVID-19?",
+        "Explain COVID-19 to me.",
+        "COVID-19?",
+        "What is covid?",
+        "Could you define covid?",
+        "Explain covid to me.",
+        "covid?",
+        "What is the Coronavirus",
+        "Could you define the Coronavirus?",
+        "Explain the Coronavirus to me.",
+        "Coronavirus?"
       ],
       "responses": [
 
@@ -197,9 +214,12 @@
       ]
     },
             {
-      "tag": "gastroenteritis_discussion",
+      "tag": "gastroenteritis_definition",
       "patterns": [
-
+        "What is gastroenteritis?",
+        "Could you define gastroenteritis?",
+        "Explain gastroenteritis to me.",
+        "Gastroenteritis?"
       ],
       "responses": [
 
@@ -233,9 +253,12 @@
       ]
     },
         {
-      "tag": "sinus_discussion",
+      "tag": "sinus_definition",
       "patterns": [
-
+        "What is a sinus infection?",
+        "Could you define a sinus infection?",
+        "Explain a sinus infection to me.",
+        "Sinus infection?"
       ],
       "responses": [
 
@@ -269,9 +292,12 @@
       ]
     },
         {
-      "tag": "pneumonia_discussion",
+      "tag": "pneumonia_definition",
       "patterns": [
-
+        "What is pneumonia?",
+        "Could you define pneumonia?",
+        "Explain pneumonia to me.",
+        "Pneumonia?"
       ],
       "responses": [
 
@@ -305,9 +331,12 @@
       ]
     },
             {
-      "tag": "headache_discussion",
+      "tag": "headache_definition",
       "patterns": [
-
+        "What is a headache?",
+        "Could you define a headache?",
+        "Explain a headache to me.",
+        "Headache?"
       ],
       "responses": [
 
@@ -341,9 +370,12 @@
       ]
     },
             {
-      "tag": "bruise_discussion",
+      "tag": "bruise_definition",
       "patterns": [
-
+        "What is a bruise?",
+        "Could you define a bruise?",
+        "Explain a bruise to me.",
+        "Bruise?"
       ],
       "responses": [
 
@@ -377,9 +409,12 @@
       ]
     },
             {
-      "tag": "concussion_discussion",
+      "tag": "concussion_definition",
       "patterns": [
-
+        "What is a concussion?",
+        "Could you define a concussion?",
+        "Explain a concussion to me.",
+        "Concussion?"
       ],
       "responses": [
 
@@ -413,9 +448,12 @@
       ]
     },
             {
-      "tag": "strain_discussion",
+      "tag": "strain_definition",
       "patterns": [
-
+        "What is a strain?",
+        "Could you define a strain?",
+        "Explain a strain to me.",
+        "Strain?"
       ],
       "responses": [
 
@@ -449,9 +487,12 @@
       ]
     },
             {
-      "tag": "sprain_discussion",
+      "tag": "sprain_definition",
       "patterns": [
-
+        "What is a sprain?",
+        "Could you define a sprain?",
+        "Explain a sprain to me.",
+        "Sprain?"
       ],
       "responses": [
 
@@ -485,9 +526,12 @@
       ]
     },
             {
-      "tag": "fracture_discussion",
+      "tag": "fracture_definition",
       "patterns": [
-
+        "What is a fracture?",
+        "Could you define a fracture?",
+        "Explain a fracture to me.",
+        "Fracture?"
       ],
       "responses": [
 
@@ -518,6 +562,18 @@
       ],
       "responses": [
 
+      ]
+    },
+    {
+      "tag": "information_origin",
+      "patterns": [
+        "Where are you getting this information from?",
+        "What sources did you use to determine this condition?",
+        "What sources did you use for this information?",
+        "Are the sources that you use from credible origins?"
+      ],
+      "responses": [
+        "All of the information that I am providing you regarding ailments and physical injuries is provided by the Centers For Disease Control and Prevention and other credible sources such as publications by Yale Medicine."
       ]
     }
   ]
