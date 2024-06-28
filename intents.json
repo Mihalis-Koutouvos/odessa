@@ -41,7 +41,9 @@
         "See you later",
         "See you soon!",
         "Until next time.",
-        "It has been a pleasure!"
+        "It has been a pleasure!",
+        "Thank you!",
+        "Thank you for all the help."
       ],
       "responses": [
         "You are welcome",
@@ -53,36 +55,464 @@
       ]
     },
     {
-      "tag": "acknowledgment",
-      "patterns": [
-
-      ],
-      "responses": [
-
-      ]
-    },
-    {
       "tag": "treatment_discussion",
       "patterns": [
         "I would like to talk about a potential injury.",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        ""
+        "I feel some kind of pain in my body.",
+        "Do you think that you could help me with something?",
+        "I would like some clarification on something that my body is going through.",
+        "I do not feel so good. May I ask you some questions?",
+        "I feel sick.",
+        "I am in serious pain.",
+        "I need help.",
+        "Could you help me resolve this issue I have been having?",
+        "Could you provide me with some insight on a condition I think I have?"
       ],
       "responses": [
-
+        "I am open to hearing about any issues that you would like to discuss.",
+        "What has been going on?",
+        "Explain what is going on in your body.",
+        "Please elaborate on how you feel.",
+        "I am sorry you feel this way. Would you like to discuss what is going on?"
       ]
     },
     {
       "tag": "referral",
+      "patterns": [
+        "Where should I go from here?",
+        "Should I still see a doctor?",
+        "Now I know what I have. What do I do from here?",
+        "I still feel sick. What do I do?"
+      ],
+      "responses": [
+        "Keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the correct and appropriate medical professionals so that you can receive proper diagnosis and treatment."
+      ]
+    },
+        {
+      "tag": "flu_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "flu_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "flu_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "flu_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "cold_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "cold_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "cold_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "cold_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "c19_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "c19_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "c19_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "c19_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "gastroenteritis_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "gastroenteritis_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "gastroenteritis_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "gastroenteritis_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sinus_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sinus_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sinus_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sinus_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "pneumonia_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "pneumonia_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "pneumonia_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "pneumonia_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "headache_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "headache_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "headache_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "headache_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "bruise_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "bruise_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "bruise_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "bruise_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "concussion_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "concussion_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "concussion_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "concussion_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "strain_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "strain_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "strain_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "strain_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "sprain_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sprain_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sprain_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "sprain_duration",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+            {
+      "tag": "fracture_discussion",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "fracture_prevention",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "fracture_symptoms",
+      "patterns": [
+
+      ],
+      "responses": [
+
+      ]
+    },
+        {
+      "tag": "fracture_duration",
       "patterns": [
 
       ],
