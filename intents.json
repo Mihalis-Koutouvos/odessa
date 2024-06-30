@@ -103,7 +103,11 @@
         {
       "tag": "flu_prevention",
       "patterns": [
-
+        "What can I do to prevent the flu?",
+        "What can I do to lower the changes of me getting the flu?",
+        "Is the flu preventable?",
+        "Could you help me mitigate the risk of getting the flu?",
+        "How do I stop the flu?"
       ],
       "responses": [
         "This ailment can be prevented best by getting a yearly flu vaccine."
@@ -112,7 +116,11 @@
         {
       "tag": "flu_symptoms",
       "patterns": [
-
+        "What are symptoms of the flu?",
+        "Could you list some of the symptoms of the flu?",
+        "Flu symptoms?",
+        "What does the flu look like?",
+        "What effect does the flu have on a person's body?"
       ],
       "responses": [
         "Some symptoms of the flu include a cough, sore throat, fever, chills, runny or stuffy nose, muscle or body aches, headaches, fatigue, vomiting, and diarrhea."
@@ -121,7 +129,11 @@
         {
       "tag": "flu_duration",
       "patterns": [
-
+        "How long does the flu last?",
+        "When will the flu go away?",
+        "For when should I expect flu symptoms to go away?",
+        "After how many days will the flu go away?",
+        "After how many weeks will the flu go away?"
       ],
       "responses": [
         "The flu can last up to three to seven days."
@@ -142,6 +154,11 @@
         {
       "tag": "cold_prevention",
       "patterns": [
+        "What can I do to prevent a cold?",
+        "What can I do to lower the changes of me getting a cold?",
+        "Is a cold preventable?",
+        "Could you help me mitigate the risk of getting a cold?",
+        "How do I stop a cold?"
 
       ],
       "responses": [
@@ -151,7 +168,11 @@
         {
       "tag": "cold_symptoms",
       "patterns": [
-
+        "What are symptoms of a cold?",
+        "Could you list some of the symptoms of a cold?",
+        "Cold symptoms?",
+        "What does a cold look like?",
+        "What effect does a cold have on a person's body?"
       ],
       "responses": [
         "Some symptoms of a cold include a runny nose or nasal congestion, cough, sneezing, sore throat, headache, mild body aches, and a fever."
@@ -160,7 +181,11 @@
         {
       "tag": "cold_duration",
       "patterns": [
-
+        "How long does a cold last?",
+        "When will a cold go away?",
+        "For when should I expect cold symptoms to go away?",
+        "After how many days will a cold go away?",
+        "After how many weeks will a cold go away?"
       ],
       "responses": [
         "A cold should last less than a week."
@@ -189,7 +214,21 @@
         {
       "tag": "c19_prevention",
       "patterns": [
-
+        "What can I do to prevent COVID-19?",
+        "What can I do to lower the changes of me getting COVID-19?",
+        "Is COVID-19 preventable?",
+        "Could you help me mitigate the risk of getting COVID-19?",
+        "How do I stop COVID-19?",
+        "What can I do to prevent covid?",
+        "What can I do to lower the changes of me getting covid?",
+        "Is covid preventable?",
+        "Could you help me mitigate the risk of getting covid?",
+        "How do I stop covid?",
+        "What can I do to prevent the Coronavirus?",
+        "What can I do to lower the changes of me getting the Coronavirus?",
+        "Is the Coronavirus preventable?",
+        "Could you help me mitigate the risk of getting the Coronavirus?",
+        "How do I stop the Coronavirus?"
       ],
       "responses": [
         "The Centers for Disease Control and Prevention (CDC) have many recommendations, which include receiving COVID-19 vaccines, having good hygiene, and staying home when sick."
@@ -198,7 +237,11 @@
         {
       "tag": "c19_symptoms",
       "patterns": [
-
+        "What are symptoms of COVID-19?",
+        "Could you list some of the symptoms of COVID-19?",
+        "COVID-19 symptoms?",
+        "What does COVID-19 look like?",
+        "What effect does COVID-19 have on a person's body?"
       ],
       "responses": [
         "Some symptoms of COVID-19 include fever, chills, cough, shortness of breath, muscle aches, headache, fatigue, loss of taste or smell, nasal congestion or rhinorrhea, sore throat, and vomiting or diarrhea, and skin rashes."
@@ -207,7 +250,21 @@
         {
       "tag": "c19_duration",
       "patterns": [
-
+        "How long does COVID-19 last?",
+        "When will COVID-19 go away?",
+        "For when should I expect COVID-19 symptoms to go away?",
+        "After how many days will COVID-19 go away?",
+        "After how many weeks will COVID-19 go away?",
+        "How long does covid last?",
+        "When will covid go away?",
+        "For when should I expect covid symptoms to go away?",
+        "After how many days will covid go away?",
+        "After how many weeks will covid go away?",
+        "How long does the Coronavirus last?",
+        "When will the Coronavirus go away?",
+        "For when should I expect Coronavirus symptoms to go away?",
+        "After how many days will the Coronavirus go away?",
+        "After how many weeks will the Coronavirus go away?"
       ],
       "responses": [
         "For a mild case, COVID-19 might last between a week or two. However, serious cases can take more than six weeks. Please see a doctor if your COVID-19 symptoms have not gone away after a few weeks."
@@ -241,7 +298,11 @@
         {
       "tag": "gastroenteritis_prevention",
       "patterns": [
-
+        "What can I do to prevent gastroenteritis?",
+        "What can I do to lower the changes of me getting gastroenteritis?",
+        "Is gastroenteritis preventable?",
+        "Could you help me mitigate the risk of getting gastroenteritis?",
+        "How do I stop gastroenteritis?"
       ],
       "responses": [
         "Make sure you are vaccinated, wash your hands, prepare food safely, and avoid sharing personal items that may be contaminated."
@@ -250,7 +311,11 @@
         {
       "tag": "gastroenteritis_symptoms",
       "patterns": [
-
+        "What are symptoms of gastroenteritis?",
+        "Could you list some of the symptoms of gastroenteritis?",
+        "Gastroenteritis symptoms?",
+        "What does gastroenteritis look like?",
+        "What effect does gastroenteritis have on a person's body?"
       ],
       "responses": [
         "Gastroenteritis, or the stomach flu, can result in abdominal pain, nausea, vomiting, diarrhea, dehydration, loss of appetite, bloating, fever, fatigue, muscle aches, sweating, chills, weight loss, and blood or mucus in the stool. Keep in mind these are not the only symptoms that could appear."
@@ -259,7 +324,11 @@
         {
       "tag": "gastroenteritis_duration",
       "patterns": [
-
+        "How long does gastroenteritis last?",
+        "When will gastroenteritis go away?",
+        "For when should I expect gastroenteritis symptoms to go away?",
+        "After how many days will gastroenteritis go away?",
+        "After how many weeks will gastroenteritis go away?"
       ],
       "responses": [
         "Gastroenteritis may last up to fourteen days."
@@ -280,7 +349,11 @@
         {
       "tag": "sinus_prevention",
       "patterns": [
-
+        "What can I do to prevent a sinus infection?",
+        "What can I do to lower the changes of me getting a sinus infection?",
+        "Is a sinus infection preventable?",
+        "Could you help me mitigate the risk of getting a sinus infection?",
+        "How do I stop a sinus infection?"
       ],
       "responses": [
         "This infection can be treated by drinking fluids, using nasal saline rinses, and taking cold and allergy medications."
@@ -289,7 +362,11 @@
         {
       "tag": "sinus_symptoms",
       "patterns": [
-
+        "What are symptoms of a sinus infection?",
+        "Could you list some of the symptoms of a sinus infection?",
+        "Sinus infection symptoms?",
+        "What does a sinus infection look like?",
+        "What effect does a sinus infection have on a person's body?"
       ],
       "responses": [
         "Symptoms of a sinus infection include postnasal drip (mucus in your throat), runny nose with thick yellow or green mucus, stuffy nose, facial pressure (especially around your nose, eyes, and forehead, which may get worse when you move your head or bend over), pain in your teeth or ears, fever, cough, headache, and tiredness."
@@ -298,7 +375,11 @@
         {
       "tag": "sinus_duration",
       "patterns": [
-
+        "How long does a sinus infection last?",
+        "When will a sinus infection go away?",
+        "For when should I expect sinus infection symptoms to go away?",
+        "After how many days will a sinus infection go away?",
+        "After how many weeks will a sinus infection go away?"
       ],
       "responses": [
         "A sinus infection usually lasts from a week to ten days."
@@ -319,7 +400,11 @@
         {
       "tag": "pneumonia_prevention",
       "patterns": [
-
+        "What can I do to prevent pneumonia?",
+        "What can I do to lower the changes of me getting pneumonia?",
+        "Is a pneumonia preventable?",
+        "Could you help me mitigate the risk of getting pneumonia?",
+        "How do I stop pneumonia?"
       ],
       "responses": [
         "Antibiotics will usually help speed the recovery process for bacterial pneumonia, but viral pneumonia tends to get better on its own. A yearly flu shot can also help since the flu is a common cause of pneumonia."
@@ -328,7 +413,11 @@
         {
       "tag": "pneumonia_symptoms",
       "patterns": [
-
+        "What are symptoms of pneumonia?",
+        "Could you list some of the symptoms of pneumonia?",
+        "Pneumonia symptoms?",
+        "What does pneumonia look like?",
+        "What effect does the pneumonia have on a person's body?"
       ],
       "responses": [
         "Based on bacterial pneumonia, symptoms of it include a bluish color to lips and fingernails, confused mental state, cough that produces green, yellow, or bloody mucus, fever, loss of appetite, heavy sweating, low energy or extreme tiredness, rapid breathing, rapid pulse, shaking chills, sharp or stabbing chest pain that is worse with deep breathing or coughing, and shortness of breath that gets worse with activity. However, viral pneumonia, which has the same early symptoms as bacterial pneumonia, can be followed by headaches, increasing shortness of breath, muscle pain, weakness, and worsening of the cough."
@@ -337,7 +426,11 @@
         {
       "tag": "pneumonia_duration",
       "patterns": [
-
+        "How long does pneumonia last?",
+        "When will pneumonia go away?",
+        "For when should I expect pneumonia symptoms to go away?",
+        "After how many days will pneumonia go away?",
+        "After how many weeks will pneumonia go away?"
       ],
       "responses": [
         "Bacterial and viral pneumonia can last several weeks."
@@ -358,7 +451,11 @@
         {
       "tag": "headache_prevention",
       "patterns": [
-
+        "What can I do to prevent a headache?",
+        "What can I do to lower the changes of me getting a headache?",
+        "Is a headache preventable?",
+        "Could you help me mitigate the risk of getting a headache?",
+        "How do I stop a headache?"
       ],
       "responses": [
         "To prevent headaches, people can avoid triggers such as lack of sleep, change eating habits, exercise, rest in a quiet, dark location, medicine, and stress management. Please see a doctor immediately if the pain is persistent and extremely uncomfortable."
@@ -367,7 +464,11 @@
         {
       "tag": "headache_symptoms",
       "patterns": [
-
+        "What are symptoms of a headache?",
+        "Could you list some of the symptoms of a headache?",
+        "Headache symptoms?",
+        "What does a headache look like?",
+        "What effect does a headache have on a person's body?"
       ],
       "responses": [
         "The severity of the headache symptoms very drastically, but some general symptoms include a slow onset of the headache, head pain on both sides, dull pain, band-like formation of pain around the head, pain around the back of the head or neck, and mild to moderate pain levels."
@@ -376,7 +477,11 @@
         {
       "tag": "headache_duration",
       "patterns": [
-
+        "How long does a headache last?",
+        "When will a headache go away?",
+        "For when should I expect headache symptoms to go away?",
+        "After how many days will a headache go away?",
+        "After how many weeks will a headache go away?"
       ],
       "responses": [
         "Headaches can vary greatly when it comes to how long pain will last, where it is located, and how severe the pain actually is. However, they typically last twenty minutes to several hours. Some headaches can last several days."
@@ -397,7 +502,11 @@
         {
       "tag": "bruise_prevention",
       "patterns": [
-
+        "What can I do to prevent a bruise?",
+        "What can I do to lower the changes of me getting a bruise?",
+        "Is a bruise preventable?",
+        "Could you help me mitigate the risk of getting a bruise?",
+        "How do I stop a bruise?"
       ],
       "responses": [
         "A lot of people will experience some kind of bruising, but you can minimize it by removing tripping hazards in your home, avoiding bumping into hard surfaces, receiving sufficient vitamins in your diet, and wearing protective gear such as pads when playing contact sports, biking, or riding a motorcycle."
@@ -406,7 +515,11 @@
         {
       "tag": "bruise_symptoms",
       "patterns": [
-
+        "What are symptoms of a bruise?",
+        "Could you list some of the symptoms of a bruise?",
+        "Bruise symptoms?",
+        "What does the a bruise look like?",
+        "What effect does a bruise have on a person's body?"
       ],
       "responses": [
         "Although bruises vary in size, shape, and hue, symptoms generally include pain or a sore feeling when you touch the bruise, skin discoloration (red to purple, black, brown, or yellow), and swelling or a raised bump on the skin."
@@ -415,7 +528,11 @@
         {
       "tag": "bruise_duration",
       "patterns": [
-
+        "How long does a bruise last?",
+        "When will a bruise go away?",
+        "For when should I expect bruise symptoms to go away?",
+        "After how many days will a bruise go away?",
+        "After how many weeks will a bruise go away?"
       ],
       "responses": [
         "The duration of a bruise will last for some time. However, most bruises will disappear within two weeks without any kind of treatment. Severe bruises can last a month or more."
@@ -436,7 +553,11 @@
         {
       "tag": "concussion_prevention",
       "patterns": [
-
+        "What can I do to prevent a concussion?",
+        "What can I do to lower the changes of me getting a concussion?",
+        "Is a concussion preventable?",
+        "Could you help me mitigate the risk of getting a concussion?",
+        "How do I stop a concussion?"
       ],
       "responses": [
         "Some ways to prevent a concussion include wearing the necessary headgear when engaging in a contact sport or some other physical activity, wearing seatbelts in cars, installing safety gates to prevent children from falling down stairs, and even strengthening your neck muscles."
@@ -445,7 +566,11 @@
         {
       "tag": "concussion_symptoms",
       "patterns": [
-
+        "What are symptoms of a concussion?",
+        "Could you list some of the symptoms of a concussion?",
+        "Concussion symptoms?",
+        "What does a concussion look like?",
+        "What effect does a concussion have on a person's body?"
       ],
       "responses": [
         "With concussions, there are physical, cognitive, emotional, and sleep symptoms. \n-Physical symptoms include headaches, nausea, vomiting, balance problems, dizziness, visual problems, fatigue, sensitivity to light and noise, and numbness or tingling. \n-Cognitive symptoms include feeling mentally foggy or slowed down and difficulty concentrating or remembering. \n-Emotional symptoms include irritability or moodiness, sadness, decreased interest in hobbies, and nervousness. \n-Sleep symptoms include drowsiness, sleeping less than usual or more than usual, and trouble falling asleep. \n"
@@ -454,7 +579,11 @@
         {
       "tag": "concussion_duration",
       "patterns": [
-
+        "How long does a concussion last?",
+        "When will a concussion go away?",
+        "For when should I expect concussion symptoms to go away?",
+        "After how many days will a concussion go away?",
+        "After how many weeks will a concussion go away?"
       ],
       "responses": [
         "With proper treatment, most concussions will last only fourteen to twenty-one days."
@@ -475,7 +604,11 @@
         {
       "tag": "strain_prevention",
       "patterns": [
-
+        "What can I do to prevent a strain?",
+        "What can I do to lower the changes of me getting a strain?",
+        "Is a strain preventable?",
+        "Could you help me mitigate the risk of getting a strain?",
+        "How do I stop a strain?"
       ],
       "responses": [
         "To prevent muscle strains, you can warm up before participating in sports and other activities, stretch and strengthen your muscles, gradually increase the intensity of your training, maintain a healthy body weight (obesity can stretch muscles), practice good posture, and work on correct form when lifting heavy objects."
@@ -484,7 +617,11 @@
         {
       "tag": "strain_symptoms",
       "patterns": [
-
+        "What are symptoms of a strain?",
+        "Could you list some of the symptoms of a strain?",
+        "Strain symptoms?",
+        "What does a strain look like?",
+        "What effect does a strain have on a person's body?"
       ],
       "responses": [
         "Symptoms of a strain include muscle pain or tenderness (especially after an activity that stretches or violently contracts the muscles), muscle swelling, discoloration, muscle cramp or spasm, a decrease in muscle strength or a complete loss of muscle function (the latter is indicative of a Grade III strain), a pop in the muscle at the time of the injury, and a gap, dent, or other defect in the normal outline of the muscle (which is indicative of a Grade III strain)."
@@ -493,7 +630,11 @@
         {
       "tag": "strain_duration",
       "patterns": [
-
+        "How long does a strain last?",
+        "When will a strain go away?",
+        "For when should I expect strain symptoms to go away?",
+        "After how many days will a strain go away?",
+        "After how many weeks will a strain go away?"
       ],
       "responses": [
         "Strains come in three grades. The higher the number, the longer it may take to heal your injury. In addition, the location of the strain matters. However, in a mild back strain, symptoms usually disappear within four to six weeks; in the legs, a mild or moderate strain may need eight or more weeks to heal. Grade III strains may need to heal even longer or have to be surgically repaired."
@@ -514,7 +655,11 @@
         {
       "tag": "sprain_prevention",
       "patterns": [
-
+        "What can I do to prevent a sprain?",
+        "What can I do to lower the changes of me getting a sprain?",
+        "Is a sprain preventable?",
+        "Could you help me mitigate the risk of getting a sprain?",
+        "How do I stop a sprain?"
       ],
       "responses": [
         "Although sprains are hard to prevent, you can reduce the odds of receiving a sprain. Wear protective equipment, do not fight through pain if something hurts after a physical activity, give your body time to rest and recover after an intense activity, stretch and warm up before exercising, cool down and stretch after a physical activity."
@@ -523,7 +668,11 @@
         {
       "tag": "sprain_symptoms",
       "patterns": [
-
+        "What are symptoms of a sprain?",
+        "Could you list some of the symptoms of a sprain?",
+        "Sprain symptoms?",
+        "What does a sprain look like?",
+        "What effect does a sprain have on a person's body?"
       ],
       "responses": [
         "Sprain symptoms include pain, swelling, bruising or discoloration, instability (you cannot put weight on the joint or move comfortably), and reduced range of motion (it is hard or painful to move the joint as far as usual)."
@@ -532,7 +681,11 @@
         {
       "tag": "sprain_duration",
       "patterns": [
-
+        "How long does a sprain last?",
+        "When will a sprain go away?",
+        "For when should I expect sprain symptoms to go away?",
+        "After how many days will a sprain go away?",
+        "After how many weeks will a sprain go away?"
       ],
       "responses": [
         "The location and severity of your sprain will determine how long it will take to heal. Similar to strains, sprains have a grading system from I to III, with III being the worst kind of sprain condition."
@@ -553,7 +706,11 @@
         {
       "tag": "fracture_prevention",
       "patterns": [
-
+        "What can I do to prevent a fracture?",
+        "What can I do to lower the changes of me getting a fracture?",
+        "Is a fracture preventable?",
+        "Could you help me mitigate the risk of getting a fracture?",
+        "How do I stop a fracture?"
       ],
       "responses": [
         "To lower the chances of receiving a fracture, make sure to have a healthy diet that includes vitamin D and calcium to strengthen your bones, do weight-bearing activities, and do not use any form of tobacco as they interfere with the healing process."
@@ -562,7 +719,11 @@
         {
       "tag": "fracture_symptoms",
       "patterns": [
-
+        "What are symptoms of a fracture?",
+        "Could you list some of the symptoms of a fracture?",
+        "Fracture symptoms?",
+        "What does a fracture look like?",
+        "What effect does a fracture have on a person's body?"
       ],
       "responses": [
         "Symptoms of a fracture or broken bone include sudden pain, trouble using or moving the injured area or nearby joints, swelling, obvious deformity, and warmth, bruising, or redness."
@@ -571,7 +732,11 @@
         {
       "tag": "fracture_duration",
       "patterns": [
-
+        "How long does a fracture last?",
+        "When will a fracture go away?",
+        "For when should I expect fracture symptoms to go away?",
+        "After how many days will a fracture go away?",
+        "After how many weeks will a fracture go away?"
       ],
       "responses": [
         "A fracture’s healing time depends on the location and severity of the fracture. Most fractures tend to heal within six to eight weeks, but some fractures may need twenty weeks or more to heal."
