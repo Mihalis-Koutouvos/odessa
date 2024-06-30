@@ -106,7 +106,7 @@
 
       ],
       "responses": [
-
+        "This ailment can be prevented best by getting a yearly flu vaccine."
       ]
     },
         {
@@ -115,7 +115,7 @@
 
       ],
       "responses": [
-
+        "Some symptoms of the flu include a cough, sore throat, fever, chills, runny or stuffy nose, muscle or body aches, headaches, fatigue, vomiting, and diarrhea."
       ]
     },
         {
@@ -124,7 +124,7 @@
 
       ],
       "responses": [
-
+        "The flu can last up to three to seven days."
       ]
     },
         {
@@ -136,7 +136,7 @@
         "Cold?"
       ],
       "responses": [
-
+        "A cold is a viral infection that impacts the upper respiratory tract."
       ]
     },
         {
@@ -145,7 +145,7 @@
 
       ],
       "responses": [
-
+        "A cold can be prevented by refraining from physically interacting with people who are sick and washing your hands effectively with soap and water."
       ]
     },
         {
@@ -154,7 +154,7 @@
 
       ],
       "responses": [
-
+        "Some symptoms of a cold include a runny nose or nasal congestion, cough, sneezing, sore throat, headache, mild body aches, and a fever."
       ]
     },
         {
@@ -163,7 +163,7 @@
 
       ],
       "responses": [
-
+        "A cold should last less than a week."
       ]
     },
         {
@@ -183,7 +183,7 @@
         "Coronavirus?"
       ],
       "responses": [
-
+        "COVID-19 is a very contagious respiratory disease, with symptoms that feel similar to those of a cold, the flu, or even pneumonia."
       ]
     },
         {
@@ -192,7 +192,7 @@
 
       ],
       "responses": [
-
+        "The Centers for Disease Control and Prevention (CDC) have many recommendations, which include receiving COVID-19 vaccines, having good hygiene, and staying home when sick."
       ]
     },
         {
@@ -201,7 +201,7 @@
 
       ],
       "responses": [
-
+        "Some symptoms of COVID-19 include fever, chills, cough, shortness of breath, muscle aches, headache, fatigue, loss of taste or smell, nasal congestion or rhinorrhea, sore throat, and vomiting or diarrhea, and skin rashes."
       ]
     },
         {
@@ -210,7 +210,20 @@
 
       ],
       "responses": [
-
+        "For a mild case, COVID-19 might last between a week or two. However, serious cases can take more than six weeks. Please see a doctor if your COVID-19 symptoms have not gone away after a few weeks."
+      ]
+    },
+    {
+      "tag": "cold_flu_covid_discussion",
+      "patterns": [
+        "What is the difference between a cold, the flu, and COVID-19?",
+        "What is the difference between a cold, the flu, and covid?",
+        "What is the difference between a cold, the flu, and Coronavirus?",
+        "How do I tell apart a cold, the flu, and covid?",
+        "What are the differences and similarities between a cold, the flu, and covid?"
+      ],
+      "responses": [
+        "A cold is generally more mild than the flu. For example, the flu’s symptoms tend to be more severe than those of a cold. However, when it comes to COVID-19, it is hard to determine whether someone has the flu, a cold, or COVID-19 without proper testing because each disease shares a lot of the same symptoms. In order to fix this issue, please take a COVID-19 test or see your local doctor."
       ]
     },
             {
@@ -222,7 +235,7 @@
         "Gastroenteritis?"
       ],
       "responses": [
-
+        "Gastroenteritis, or the stomach flu, is the inflammation of the gastrointestinal tract."
       ]
     },
         {
@@ -231,7 +244,7 @@
 
       ],
       "responses": [
-
+        "Make sure you are vaccinated, wash your hands, prepare food safely, and avoid sharing personal items that may be contaminated."
       ]
     },
         {
@@ -240,7 +253,7 @@
 
       ],
       "responses": [
-
+        "Gastroenteritis, or the stomach flu, can result in abdominal pain, nausea, vomiting, diarrhea, dehydration, loss of appetite, bloating, fever, fatigue, muscle aches, sweating, chills, weight loss, and blood or mucus in the stool. Keep in mind these are not the only symptoms that could appear."
       ]
     },
         {
@@ -249,7 +262,7 @@
 
       ],
       "responses": [
-
+        "Gastroenteritis may last up to fourteen days."
       ]
     },
         {
@@ -261,7 +274,7 @@
         "Sinus infection?"
       ],
       "responses": [
-
+        "A sinus infection is the inflammation of the issues in your sinuses, which include the spaces in your forehead, cheeks, and nose usually filled with air."
       ]
     },
         {
@@ -270,7 +283,7 @@
 
       ],
       "responses": [
-
+        "This infection can be treated by drinking fluids, using nasal saline rinses, and taking cold and allergy medications."
       ]
     },
         {
@@ -279,7 +292,7 @@
 
       ],
       "responses": [
-
+        "Symptoms of a sinus infection include postnasal drip (mucus in your throat), runny nose with thick yellow or green mucus, stuffy nose, facial pressure (especially around your nose, eyes, and forehead, which may get worse when you move your head or bend over), pain in your teeth or ears, fever, cough, headache, and tiredness."
       ]
     },
         {
@@ -288,7 +301,7 @@
 
       ],
       "responses": [
-
+        "A sinus infection usually lasts from a week to ten days."
       ]
     },
         {
@@ -300,7 +313,7 @@
         "Pneumonia?"
       ],
       "responses": [
-
+        "Pneumonia is an infection of one or both of the lungs in which pus and other kinds of liquids fill up the air sacs."
       ]
     },
         {
@@ -309,7 +322,7 @@
 
       ],
       "responses": [
-
+        "Antibiotics will usually help speed the recovery process for bacterial pneumonia, but viral pneumonia tends to get better on its own. A yearly flu shot can also help since the flu is a common cause of pneumonia."
       ]
     },
         {
@@ -318,7 +331,7 @@
 
       ],
       "responses": [
-
+        "Based on bacterial pneumonia, symptoms of it include a bluish color to lips and fingernails, confused mental state, cough that produces green, yellow, or bloody mucus, fever, loss of appetite, heavy sweating, low energy or extreme tiredness, rapid breathing, rapid pulse, shaking chills, sharp or stabbing chest pain that is worse with deep breathing or coughing, and shortness of breath that gets worse with activity. However, viral pneumonia, which has the same early symptoms as bacterial pneumonia, can be followed by headaches, increasing shortness of breath, muscle pain, weakness, and worsening of the cough."
       ]
     },
         {
@@ -327,7 +340,7 @@
 
       ],
       "responses": [
-
+        "Bacterial and viral pneumonia can last several weeks."
       ]
     },
             {
@@ -339,7 +352,7 @@
         "Headache?"
       ],
       "responses": [
-
+        "A headache is a condition where an individual will experience pain in the head or face that can feel constant, sharp, dull, or even like placing pressure on one’s head."
       ]
     },
         {
@@ -348,7 +361,7 @@
 
       ],
       "responses": [
-
+        "To prevent headaches, people can avoid triggers such as lack of sleep, change eating habits, exercise, rest in a quiet, dark location, medicine, and stress management. Please see a doctor immediately if the pain is persistent and extremely uncomfortable."
       ]
     },
         {
@@ -357,7 +370,7 @@
 
       ],
       "responses": [
-
+        "The severity of the headache symptoms very drastically, but some general symptoms include a slow onset of the headache, head pain on both sides, dull pain, band-like formation of pain around the head, pain around the back of the head or neck, and mild to moderate pain levels."
       ]
     },
         {
@@ -366,7 +379,7 @@
 
       ],
       "responses": [
-
+        "Headaches can vary greatly when it comes to how long pain will last, where it is located, and how severe the pain actually is. However, they typically last twenty minutes to several hours. Some headaches can last several days."
       ]
     },
             {
@@ -378,7 +391,7 @@
         "Bruise?"
       ],
       "responses": [
-
+        "A bruise, or contusion, occurs when skin becomes discolored due to damaged, leaking blood vessels under the skin."
       ]
     },
         {
@@ -387,7 +400,7 @@
 
       ],
       "responses": [
-
+        "A lot of people will experience some kind of bruising, but you can minimize it by removing tripping hazards in your home, avoiding bumping into hard surfaces, receiving sufficient vitamins in your diet, and wearing protective gear such as pads when playing contact sports, biking, or riding a motorcycle."
       ]
     },
         {
@@ -396,7 +409,7 @@
 
       ],
       "responses": [
-
+        "Although bruises vary in size, shape, and hue, symptoms generally include pain or a sore feeling when you touch the bruise, skin discoloration (red to purple, black, brown, or yellow), and swelling or a raised bump on the skin."
       ]
     },
         {
@@ -405,10 +418,10 @@
 
       ],
       "responses": [
-
+        "The duration of a bruise will last for some time. However, most bruises will disappear within two weeks without any kind of treatment. Severe bruises can last a month or more."
       ]
     },
-            {
+    {
       "tag": "concussion_definition",
       "patterns": [
         "What is a concussion?",
@@ -417,7 +430,7 @@
         "Concussion?"
       ],
       "responses": [
-
+        "A concussion is a brain injury that transpires when force is transmitted to the brain, which results in the brain moving fast within the skull. People commonly receive concussions with a direct blow to the head that causes the brain to rock violently within the skull."
       ]
     },
         {
@@ -426,7 +439,7 @@
 
       ],
       "responses": [
-
+        "Some ways to prevent a concussion include wearing the necessary headgear when engaging in a contact sport or some other physical activity, wearing seatbelts in cars, installing safety gates to prevent children from falling down stairs, and even strengthening your neck muscles."
       ]
     },
         {
@@ -435,7 +448,7 @@
 
       ],
       "responses": [
-
+        "With concussions, there are physical, cognitive, emotional, and sleep symptoms. \n-Physical symptoms include headaches, nausea, vomiting, balance problems, dizziness, visual problems, fatigue, sensitivity to light and noise, and numbness or tingling. \n-Cognitive symptoms include feeling mentally foggy or slowed down and difficulty concentrating or remembering. \n-Emotional symptoms include irritability or moodiness, sadness, decreased interest in hobbies, and nervousness. \n-Sleep symptoms include drowsiness, sleeping less than usual or more than usual, and trouble falling asleep. \n"
       ]
     },
         {
@@ -444,10 +457,10 @@
 
       ],
       "responses": [
-
+        "With proper treatment, most concussions will last only fourteen to twenty-one days."
       ]
     },
-            {
+    {
       "tag": "strain_definition",
       "patterns": [
         "What is a strain?",
@@ -456,7 +469,7 @@
         "Strain?"
       ],
       "responses": [
-
+        "A strain involves the stretching or tearing of muscle fibers. They occur due to one of two reasons: The muscle has been stretched beyond what it can withstand or it has been forced to contract too strongly."
       ]
     },
         {
@@ -465,7 +478,7 @@
 
       ],
       "responses": [
-
+        "To prevent muscle strains, you can warm up before participating in sports and other activities, stretch and strengthen your muscles, gradually increase the intensity of your training, maintain a healthy body weight (obesity can stretch muscles), practice good posture, and work on correct form when lifting heavy objects."
       ]
     },
         {
@@ -474,7 +487,7 @@
 
       ],
       "responses": [
-
+        "Symptoms of a strain include muscle pain or tenderness (especially after an activity that stretches or violently contracts the muscles), muscle swelling, discoloration, muscle cramp or spasm, a decrease in muscle strength or a complete loss of muscle function (the latter is indicative of a Grade III strain), a pop in the muscle at the time of the injury, and a gap, dent, or other defect in the normal outline of the muscle (which is indicative of a Grade III strain)."
       ]
     },
         {
@@ -483,7 +496,7 @@
 
       ],
       "responses": [
-
+        "Strains come in three grades. The higher the number, the longer it may take to heal your injury. In addition, the location of the strain matters. However, in a mild back strain, symptoms usually disappear within four to six weeks; in the legs, a mild or moderate strain may need eight or more weeks to heal. Grade III strains may need to heal even longer or have to be surgically repaired."
       ]
     },
             {
@@ -495,7 +508,7 @@
         "Sprain?"
       ],
       "responses": [
-
+        "A sprain is an injury that stresses a joint and overstretches or, in some cases, even ruptures its supporting ligaments. Keep in mind that there are various kinds of sprains."
       ]
     },
         {
@@ -504,7 +517,7 @@
 
       ],
       "responses": [
-
+        "Although sprains are hard to prevent, you can reduce the odds of receiving a sprain. Wear protective equipment, do not fight through pain if something hurts after a physical activity, give your body time to rest and recover after an intense activity, stretch and warm up before exercising, cool down and stretch after a physical activity."
       ]
     },
         {
@@ -513,7 +526,7 @@
 
       ],
       "responses": [
-
+        "Sprain symptoms include pain, swelling, bruising or discoloration, instability (you cannot put weight on the joint or move comfortably), and reduced range of motion (it is hard or painful to move the joint as far as usual)."
       ]
     },
         {
@@ -522,7 +535,7 @@
 
       ],
       "responses": [
-
+        "The location and severity of your sprain will determine how long it will take to heal. Similar to strains, sprains have a grading system from I to III, with III being the worst kind of sprain condition."
       ]
     },
             {
@@ -534,7 +547,7 @@
         "Fracture?"
       ],
       "responses": [
-
+        "A fracture, or a broken bone, is a condition where a bone in your body breaks due to it being unable to withstand a force being put on it. Keep in mind that there are many different types of fractures."
       ]
     },
         {
@@ -543,7 +556,7 @@
 
       ],
       "responses": [
-
+        "To lower the chances of receiving a fracture, make sure to have a healthy diet that includes vitamin D and calcium to strengthen your bones, do weight-bearing activities, and do not use any form of tobacco as they interfere with the healing process."
       ]
     },
         {
@@ -552,7 +565,7 @@
 
       ],
       "responses": [
-
+        "Symptoms of a fracture or broken bone include sudden pain, trouble using or moving the injured area or nearby joints, swelling, obvious deformity, and warmth, bruising, or redness."
       ]
     },
         {
@@ -561,7 +574,7 @@
 
       ],
       "responses": [
-
+        "A fracture’s healing time depends on the location and severity of the fracture. Most fractures tend to heal within six to eight weeks, but some fractures may need twenty weeks or more to heal."
       ]
     },
     {
