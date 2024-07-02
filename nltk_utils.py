@@ -28,6 +28,7 @@ def bag_of_words(tokenized_sentence, all_words):
     tokenized_sentence = [stem_word(w) for w in tokenized_sentence] #Stemmer is being applied to each word in the
     #tokenized sentence
 
+    #Each word is initialized with 0 in the bag
     bag = np.zeros(len(all_words), dtype=np.float32)
     for i, w in enumerate(all_words): #i deals with indices, while w deals with individual words in all_words
         if w in tokenized_sentence:
