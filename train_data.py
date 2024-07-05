@@ -1,20 +1,15 @@
 import json
+from nltk_utils import tokenize_text, stem_word, bag_of_words
 import numpy as np
-
 import torch #Needed for dataset creation
 import torch.nn as nn #Needed for dataset creation
 from torch.utils.data import Dataset, DataLoader #Needed for dataset creation
-
-from nltk_utils import tokenize_text, stem_word, bag_of_words
-
-from model_imp import OdessaNeuralNet
+from model_imp import NeuralNet
 
 
 #Start off by opening and loading the json file
 with open('intents.json', 'r') as f:
     intents = json.load(f)
-
-#print(intents)
 
 #Need to set an empty list for all the words we may need; this will be an initial value
 all_words = []
@@ -53,7 +48,7 @@ for (pattern_sentence, tag) in patterns_and_tags:
 X_train = np.array(X_train) #Defined training data
 y_train = np.array(y_train) #Defined training data
 
-#OdessaDataset is an abstract class. This will allow us to access data points
+#Dataset is an abstract class. This will allow us to access data points
 #and other information
 class OdessaDataset(Dataset): #Inherits from Dataset
 
@@ -83,17 +78,17 @@ learning_rate = 0.001 #Step size for optimizer
 num_of_epochs = 100 #Number of passes through training data
 
 #DataLoader portion:
-dataloader = DataLoader(dataset = dataset, batch_size = batch_size, shuffle = True, num_workers = 2)
+dataloader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = OdessaNeuralNet(input_size, hidden_size, output_size).to(device)
+model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
 
 #Represents our loss function
-criterion = nn.CrossEntropyLoss
+criterion = nn.CrossEntropyLoss()
 
 #Represents out Adam optimizer
-optimizer = torch.optim.Adam(model.parameters(), lr = learning_rate)
+optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 #Training loop:
 for epoch in range(num_of_epochs):
