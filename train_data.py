@@ -110,5 +110,23 @@ print(f'final loss, loss = {loss.item():.4f}')
 
 
 
+#Saving the data with this line: Created a dictionary to do so, which will help
+#because we are saving multiple items
+various_data_vars = {
+    "model_state": model.state_dict(),
+    "input_size": input_size,
+    "output_size": output_size,
+    "hidden_size": hidden_size,
+    "all_words": all_words,
+    "tags": tags
+}
+
+SAVED_FILE = "various_data_vars.pth"
+torch.save(various_data_vars, SAVED_FILE)
+
+print(f'The training for Odessa has been completed. The file for it has been saved to {SAVED_FILE}.')
+
+
+
 
 
