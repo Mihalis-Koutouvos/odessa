@@ -127,6 +127,6 @@ torch.save(various_data_vars, SAVED_FILE)
 print(f'The training for Odessa has been completed. The file for it has been saved to {SAVED_FILE}.')
 
 
-
+#Any time I make changes to the json file, I need to run python train_data.py again
 
 
