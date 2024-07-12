@@ -57,7 +57,7 @@ g = "Can you pay me $20.00?"
 
 
 #Tests for tokenize:
-#print(tokenize_text(a))
+print(tokenize_text(a))
 #print(tokenize_text(b))
 #print(tokenize_text(f))
 #print(tokenize_text(g))

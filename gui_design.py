@@ -13,6 +13,7 @@ BOLD_FONT = "Verdana 16 bold"
 #Creation of the application:
 class OdessaApplication:
 
+    #Basic constructor:
     def __init__(self):
         self.window = Tk() #Instantiated the first instance of a window
         self._setup_main_window()
@@ -24,7 +25,9 @@ class OdessaApplication:
     def _setup_main_window(self):
         self.window.title("Odessa Chat")
         self.window.resizable(width=False, height=False) #Do not want the window to be resizable, so both dimensions are false
-        self.window.config(width=470, height=550, bg=BACKGROUND_MAIN) #configure is how we give different attributes to the widgets in our application
+        self.window.config(width=800, height=550, bg=BACKGROUND_MAIN) #configure is how we give different attributes to the widgets in our application
+
+
 
         #Head Label:
         head_label = Label(self.window, bg=BACKGROUND_MAIN, fg=TEXT_COLOR,
@@ -65,6 +68,15 @@ class OdessaApplication:
         send_button.place(relx=0.77, rely=0.008, relheight=0.06, relw=0.22)
 
 
+
+
+
+
+
+
+
+
+
     def _on_enter_pressed(self, event):
         message = self.text_input.get() #Gets input text as a string
         self._insert_message(message, "You")
@@ -87,6 +99,8 @@ class OdessaApplication:
         self.text_widget.config(state=DISABLED)
 
         self.text_widget.see(END) #This scrolls to the end, so we are always able to see the last/first message.
+
+
 
 if __name__ == "__main__":
     app = OdessaApplication()
