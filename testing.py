@@ -52,8 +52,8 @@ def test_stem_word():
 
 
 #Tests for the function bag_of_words
-def test_bag_of_words():
-    assert 
+#def test_bag_of_words():
+
 
 
 
