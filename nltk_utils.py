@@ -57,7 +57,7 @@ g = "Can you pay me $20.00?"
 
 
 #Tests for tokenize:
-print(tokenize_text(a))
+#print(tokenize_text(a))
 #print(tokenize_text(b))
 #print(tokenize_text(f))
 #print(tokenize_text(g))
@@ -75,6 +75,6 @@ stem_list = [stem_word(w) for w in word_list]
 
 #Tests for bag_of_words:
 test_all_words = ["i", "like", "to", "dance", "with", "you", "!"] #Should be lowercase
-example_sentence = ["i", "eat", "pizza", "with", "Sam", "."] #Should also be lowercase
-#print(bag_of_words(example_sentence, test_all_words))
+example_sentence = ["i", "eat", "pizza", "with", "sam", "."] #Should also be lowercase
+print(bag_of_words(example_sentence, test_all_words))
 

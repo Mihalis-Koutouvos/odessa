@@ -17,6 +17,8 @@ ex_sentence_four = "I love getting bruises!"
 ex_sentence_five = "I do not like headaches, especially after work."
 ex_sentence_no_sym = "I have a headache"
 ex_sentence_all_sym = "I have leg pain. Do you think I have a strain? If so, let me know!"
+ex_all_words = ["hello", "i", "have", "do", "a", "headache", "?", ".", "so", "if", "why", "not", "matter", "like",
+                "strain", "bruise", "pneumonia", "concussion", "happy", "sad", "pain", ",", "after", "work"]
 
 ex_word_one = "destroy"
 ex_word_two = "Destroyed"
@@ -25,6 +27,12 @@ ex_word_four = "train"
 ex_word_five = "trains"
 ex_word_six = "Trained"
 ex_word_seven = "Ravenhill"
+
+ex_tokenized_text_one = ["i", "have", "a", "headache", "."]
+ex_tokenized_text_two = ["i", "do", "not", "have", "a", "headache", ",", "especially", "after", "work", "."]
+
+
+
 
 
 #Tests for the function tokenize_text
@@ -37,7 +45,8 @@ def test_tokenize_text():
                                                "work", "."]
     assert tokenize_text(ex_sentence_no_sym) == ["I", "have", "a", "headache"]
     assert tokenize_text(ex_sentence_all_sym) == ["I", "have", "leg", "pain", ".", "Do", "you", "think", "I",
-                                                  "have", "a", "strain", "?", "If", "so", ",", "let", "me", "know", "!"]
+                                                  "have", "a", "strain", "?", "If", "so", ",", "let", "me",
+                                                  "know", "!"]
 
 
 #Tests for the function stem_word
@@ -52,9 +61,32 @@ def test_stem_word():
 
 
 #Tests for the function bag_of_words
-#def test_bag_of_words():
+#list(input) ensures that there is no ValueError
+def test_bag_of_words():
+    assert list(bag_of_words(ex_tokenized_text_one, ex_all_words)) == [0.0, 1.0,
+                                                                       1.0, 0.0,
+                                                                       1.0, 0.0,
+                                                                       0.0, 1.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0]
 
-
-
+    assert list(bag_of_words(ex_tokenized_text_two, ex_all_words)) == [0.0, 1.0,
+                                                                       1.0, 1.0,
+                                                                       1.0, 0.0,
+                                                                       0.0, 1.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 1.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 0.0,
+                                                                       0.0, 1.0,
+                                                                       1.0, 1.0]
 
 
