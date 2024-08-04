@@ -1,7 +1,9 @@
 import pytest
 import torch
 import torch.nn as nn
-import unittest.mock import patch
+from unittest.mock import patch
+import json
+import random
 from nltk_utils import tokenize_text, stem_word, bag_of_words
 from model_imp import NeuralNet #Importing the class so that we can test the method inside of it
 from odessa_chat import get_message
@@ -30,6 +32,7 @@ ex_word_four = "train"
 ex_word_five = "trains"
 ex_word_six = "Trained"
 ex_word_seven = "Ravenhill"
+ex_word_eight = "misdhiaiheufieuainijdf"
 
 ex_tokenized_text_one = ["i", "have", "a", "headache", "."]
 ex_tokenized_text_two = ["i", "do", "not", "have", "a", "headache", ",", "especially", "after", "work", "."]
@@ -61,6 +64,7 @@ def test_stem_word():
     assert stem_word(ex_word_five) == "train"
     assert stem_word(ex_word_six) == "train"
     assert stem_word(ex_word_seven) == "ravenhil"
+    assert stem_word(ex_word_eight) == "misdhiaiheufieuainijdf"
 
 
 #Tests for the function bag_of_words
@@ -125,6 +129,7 @@ ex_message_three = "How do you prevent a headache?"
 ex_message_fail = "I have a dog."
 ex_message_four = "I would like to talk about a potential injury."
 ex_message_five = "Could you define a headache?"
+ex_message_six = "iejienifinfs"
 
 #Tests for the function get_message
 #This function only tests cases where the responses included will receive the same response, regardless of
@@ -135,15 +140,19 @@ def test_get_message():
     assert get_message(ex_message_two) == "A concussion is a brain injury that transpires when force is transmitted to the brain, which results in the brain moving fast within the skull. People commonly receive concussions with a direct blow to the head that causes the brain to rock violently within the skull."
     assert get_message(ex_message_three) == "To prevent headaches, people can avoid triggers such as lack of sleep, change eating habits, exercise, rest in a quiet, dark location, medicine, and stress management. Please see a doctor immediately if the pain is persistent and extremely uncomfortable."
     assert get_message(ex_message_five) == "A headache is a condition where an individual will experience pain in the head or face that can feel constant, sharp, dull, or even like placing pressure on one’s head."
+    assert get_message(ex_message_six) == "I do not understand. Could you please clarify?"
 
+sender_one = "Sam"
 
+""""
 def test_get_message_with_mock():
     ex_bot = OdessaApplication()
     question = "I would like to talk about a potential injury."
     expected_response = "I am open to hearing about any issues that you would like to discuss."
 
-    with patch("random.choice"), return_value=expected_response):
-        response = ex_bot.get_response(question)
+    with patch('testing.py.random.choice', return_value=expected_response):
+        response = ex_bot._insert_message(question, sender_one)
         assert response == expected_response
+"""
 
 

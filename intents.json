@@ -107,7 +107,8 @@
         "What can I do to lower the changes of me getting the flu?",
         "Is the flu preventable?",
         "Could you help me mitigate the risk of getting the flu?",
-        "How do I stop the flu?"
+        "How do I stop the flu?",
+        "How do I treat the flu?"
       ],
       "responses": [
         "This ailment can be prevented best by getting a yearly flu vaccine."
@@ -158,7 +159,8 @@
         "What can I do to lower the changes of me getting a cold?",
         "Is a cold preventable?",
         "Could you help me mitigate the risk of getting a cold?",
-        "How do I stop a cold?"
+        "How do I stop a cold?",
+        "How do I treat a cold?"
 
       ],
       "responses": [
@@ -228,7 +230,10 @@
         "What can I do to lower the changes of me getting the Coronavirus?",
         "Is the Coronavirus preventable?",
         "Could you help me mitigate the risk of getting the Coronavirus?",
-        "How do I stop the Coronavirus?"
+        "How do I stop the Coronavirus?",
+        "How do I treat COVID-19?",
+        "How do I treat covid?",
+        "How do I treat the Coronavirus?"
       ],
       "responses": [
         "The Centers for Disease Control and Prevention (CDC) have many recommendations, which include receiving COVID-19 vaccines, having good hygiene, and staying home when sick."
@@ -302,7 +307,8 @@
         "What can I do to lower the changes of me getting gastroenteritis?",
         "Is gastroenteritis preventable?",
         "Could you help me mitigate the risk of getting gastroenteritis?",
-        "How do I stop gastroenteritis?"
+        "How do I stop gastroenteritis?",
+        "How do I treat gastroenteritis?"
       ],
       "responses": [
         "Make sure you are vaccinated, wash your hands, prepare food safely, and avoid sharing personal items that may be contaminated."
@@ -353,7 +359,8 @@
         "What can I do to lower the changes of me getting a sinus infection?",
         "Is a sinus infection preventable?",
         "Could you help me mitigate the risk of getting a sinus infection?",
-        "How do I stop a sinus infection?"
+        "How do I stop a sinus infection?",
+        "How do I treat a sinus infection?"
       ],
       "responses": [
         "This infection can be treated by drinking fluids, using nasal saline rinses, and taking cold and allergy medications."
