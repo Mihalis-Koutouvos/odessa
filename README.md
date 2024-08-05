@@ -1,4 +1,4 @@
-# **Introduction**
+## **Introduction**
 
 Odessa is a chatbot application for the healthcare industry that utilizes a conversational approach 
 to assist the user of the app in learning more about certain symptoms they are going through and conditions 
@@ -6,7 +6,7 @@ that they may be aware of as a result of the chatbot. That being said, Odessa ai
 themselves. However, keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the 
 correct and appropriate medical professionals so that you can receive proper diagnosis and treatment.
 
-# **Programming Tools and Other Technical Features**
+## **Programming Tools and Other Technical Features**
 
 To begin, Odessa was coded in Python. However, to actually train the data that I used, Pytorch came in handy, alongside 
 libraries including NumPy, NLTK, json, and random; I also employed the Tkinter library to design the GUI behind Odessa. 
