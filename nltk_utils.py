@@ -70,7 +70,7 @@ g = "Can you pay me $20.00?"
 
 word_list = ["Prepared", "Prepare", "Prepares"]
 stem_list = [stem_word(w) for w in word_list]
-#print(stem_list)
+print(stem_list)
 
 
 #Tests for bag_of_words:
