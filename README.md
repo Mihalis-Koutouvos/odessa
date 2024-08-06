@@ -8,7 +8,7 @@ correct and appropriate medical professionals so that you can receive proper dia
 
 
 
-## **What Is the Motivation Behind the Project?"**
+## **What Is the Motivation Behind the Project?**
 After my first year at Northeastern University, I had gained so many insights into the plentiful list of fields computer 
 science has influences in. However, I wanted to dive deeper into a few of these specializations, especially within 
 healthcare. 
