@@ -6,8 +6,30 @@ that they may be aware of as a result of the chatbot. That being said, Odessa ai
 themselves. However, keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the 
 correct and appropriate medical professionals so that you can receive proper diagnosis and treatment.
 
+
+
 ## **What Is the Motivation Behind the Project?"**
-Placeholder
+After my first year at Northeastern University, I had gained so many insights into the plentiful list of fields computer 
+science has influences in. However, I wanted to dive deeper into a few of these specializations, especially within 
+healthcare. 
+
+For some context, I originally did not want to go into computer science; my intentions were to go to medical school and 
+become some sort of surgeon. Due to the long financial journey this would have caused me, I decided to step away from 
+the idea of going into medical school, which extremely bummed me out. Nevertheless, after picking up programming around 
+my first and second years of high school, I developed a greater love for computers. I had one of the original Mac 
+laptops, a gift from my father, and that computer worked like a charm for many years. I was able to play games like 
+Roblox, gain experience using tools like the Google Search, and watch videos on YouTube about virtually everything. Even
+though medical school did not work out, I had computers ready to take me into their pixelated realm. 
+
+Back to reality, I decided to build a chatbot for the healthcare industry using Python. This project allowed me to not 
+only code and learn more about tools and processes such as PyTorch, machine/deep learning, and natural language 
+processing, but it also allowed me to research illnesses and injuries. I love learning, so I thoroughly reseached as much 
+information as I could in an efficient manner to go about this project. At the end of the day, this mutli-field project
+permitted me to comprehend how crucial patience is when it comes to programming at this level and going forward and how 
+almost any field can utilize the help of computers and artificial intelligence to improve the lives of humans around the 
+world. 
+
+
 
 ## **What Is the Step-by-Step Process behind the Project?**
 In order to create Odessa, I did some thorough research into chatbots and how to implement them effectively. For this 
