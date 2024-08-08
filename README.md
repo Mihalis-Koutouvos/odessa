@@ -62,33 +62,20 @@ For the heavy features, I used PyCharm CE as my IDE and Miniconda as a separate 
 All the information that I am providing you regarding ailments and physical injuries is provided by the Centers For 
 Disease Control and Prevention and other credible sources such as publications by Yale Medicine. Here are all of the 
 sources that I ended up using: 
-1. M
-2. M
-3. M
-4. M
-5. M
-6. M
-7. M
-8. M
-9. M
-10. M
-11. m
-12. m
-13. m
-14. m
-15. m
-16. m
-17. m
-18. m
-19. m
-20. m
-21. m
-22. m
-23. m
-24. m
-25. m
-26. m
-27. m
-28. m
-29. m
-30. m
+1. Cold Prevention: https://www.yalemedicine.org/conditions/colds
+2. Cold Definition, Symptoms: https://www.cdc.gov/common-cold/about/index.html
+3. Flu Definition, Prevention: https://www.cdc.gov/flu/about/index.html#:~:text=Influenza%20(flu)%20is%20a%20contagious,risk%20of%20serious%20flu%20complications.
+4. Flu Symptoms: https://www.cdc.gov/flu/symptoms/index.html#:~:text=Influenza%20(also%20known%20as%20%E2%80%9Cflu,symptoms%2C%20complications%2C%20and%20diagnosis.
+5. COVID-19 Symptoms, Prevention: https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/diagnosed-with-covid-19-what-to-expect#:~:text=You%20may%20have%20fever%2C%20cough,but%20do%20have%20COVID%2D19
+6. COVID-19 Definition: https://www.who.int/health-topics/coronavirus#tab=tab_1
+7. COVID-19 vs Flu: https://www.cdc.gov/flu/symptoms/flu-vs-covid19.htm
+8. Gastroenteritis Definition, Symptoms, Prevention: https://www.yalemedicine.org/conditions/gastroenteritis
+9. Viral Gastroenteritis: https://www.mayoclinic.org/diseases-conditions/viral-gastroenteritis/symptoms-causes/syc-20378847
+10. Sinus Infection Definition, Symptoms, Prevention: https://my.clevelandclinic.org/health/diseases/17701-sinusitis, https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/sinus-infections-sinusitis#:~:text=Definition,virus%2C%20bacteria%2C%20or%20fungus
+11. Pneumonia Definition, Symptoms, Prevention: https://www.hopkinsmedicine.org/health/conditions-and-diseases/pneumonia, https://my.clevelandclinic.org/health/diseases/4471-pneumonia
+12. Headache Definition, Symptoms, Prevention: https://www.hopkinsmedicine.org/health/conditions-and-diseases/headache, https://my.clevelandclinic.org/health/diseases/9639-headaches 
+13. Concussion Definition, Symptoms, Prevention: https://my.clevelandclinic.org/health/diseases/15038-concussion, https://www.uofmhealth.org/conditions-treatments/pediatric-brain-neurological/brain-neurological-conditions/concussion
+14. Bone Fracture Definition, Symptoms, Prevention: https://my.clevelandclinic.org/health/diseases/15241-bone-fractures, https://www.hopkinsmedicine.org/health/conditions-and-diseases/fractures, https://northazortho.com/ask-the-expert/everything-you-need-to-know-about-fractures-and-fracture-healing/#:~:text=How%20Long%20Does%20a%20Fracture,take%2020%20weeks%20or%20more.
+15. Muscle Strain Definition, Symptoms, Prevention: https://www.health.harvard.edu/a_to_z/muscle-strain-a-to-z
+16. Sprain Definition: https://www.urmc.rochester.edu/conditions-and-treatments/sprains
+17. Sprain Definition, Symptoms, Prevention: https://my.clevelandclinic.org/health/diseases/sprains
