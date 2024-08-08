@@ -1,0 +1,6 @@
+This file contains the requirements for the installation of Odessa. Please read this
+file carefully, as everything needs to be done according to the instructions below. Items
+such as libraries, packages, programming languages, imports, etc. will be included.
+
+For now, I only have the instructions for Mac users. Windows users may need to install
+different configurations.

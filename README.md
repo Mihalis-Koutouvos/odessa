@@ -1,10 +1,14 @@
-## **Introduction**
+# **Introduction:**
 
 Odessa is a chatbot application for the healthcare industry that utilizes a conversational approach 
 to assist the user of the app in learning more about certain symptoms they are going through and conditions 
 that they may be aware of as a result of the chatbot. That being said, Odessa aims to help users self-diagnose 
-themselves. However, keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the 
-correct and appropriate medical professionals so that you can receive proper diagnosis and treatment.
+themselves. 
+
+## **Disclaimer:**
+Keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the 
+correct and appropriate medical professionals so that you can receive proper diagnosis and treatment. Again, Odessa 
+is a project mainly designed for proof-of-concept.
 
 
 
@@ -52,7 +56,17 @@ From here, Odessa sends its response to the user in less than a second. Both the
 seen within the centered, main section of the GUI.
 
 
-## **Programming Tools and Other Technical Features**
+
+## **How is User Data Being Handled?**
+Odessa currently only collects a user's name. This name will be used when Odessa replies back to the user. It will be 
+in this format: "{Name}: ...". In the near future, when I implement memory into Odessa, chat history 
+between the user and Odessa will be stored during each session. However, besides the user's name, Odessa cannot access
+anything else from the user. 
+
+The user also does not have to worry about privacy concerns. 
+
+
+## **Programming Tools and Other Technical Features:**
 
 To begin, Odessa was coded in Python. However, to actually train the data that I used, Pytorch came in handy, alongside 
 libraries including NumPy, NLTK, json, and random; I also employed the Tkinter library to design the GUI behind Odessa. 
