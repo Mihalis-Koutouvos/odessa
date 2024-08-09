@@ -5,7 +5,7 @@ that they may be aware of as a result of the chatbot. That being said, Odessa ai
 themselves. 
 
 ## **Disclaimer:**
-Keep in mind that I, Odessa, and not an alternative to seeing an actual doctor. Please seek the 
+Keep in mind that Odessa is not an alternative to seeing an actual doctor. Please seek the 
 correct and appropriate medical professionals so that you can receive proper diagnosis and treatment. Again, Odessa 
 is a project mainly designed for proof-of-concept.
 
