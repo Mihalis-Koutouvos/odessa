@@ -74,6 +74,32 @@ here.
 
 
 
+## **Testing Guide:**
+When it comes to testing, 
+
+
+
+## **Odessa's Limitations and Room for Improvement:**
+Odessa has several limitations. Firstly, there are not too many diseases and physical injuries to choose from (twelve 
+conditions, at the moment). As a result, a user may not be able to accurately predict an illness or physical injury they 
+may have. Secondly, sometimes Odessa has a hard time figuring out what a user may be asking it, so "I do not understand. 
+Could you please clarify?" appears a bit. Thirdly, Odessa is a great tool to use for learning about certain diseases and 
+physical injuries, but getting to this point via a conversation is hard because the discussion of symptoms is a little 
+complicated; Odessa can list symptoms for certain problems, but it cannot evaluate a user's symptoms and throw out a 
+conclusion, especially without further testing that a physical doctor could get done. 
+
+I believe there are a plethora of ways to improve this application. Firstly, I would like to integrate a memory feature
+using LangChain so that the chatbot can understand, not instantly drop whatever a user has just told it, and employ that 
+information to reach a conclusion. This would result in better discussions in understanding diseases and physical 
+injuries a user may have. LangChain would especially help with the transition from a discussion of symptoms to the 
+discussion of what a user has in detail, along with, say, treatment or prevention options.
+
+I would also be open to adding more diseases and physical conditions, but I think a more practical thing to do would be 
+to turn Odessa into an LLM so that I can integrate web surfing techniques more smoothly and use that to do less work to 
+find conditions and elaborate on symptoms and prevention options. A transition from a basic chatbot to an LLM would 
+surely aid in preventing Odessa from not being to understand a question such as, "What is a concussion?"
+
+
 
 ## **Programming Tools and Other Technical Features:**
 To begin, Odessa was coded in Python. However, to actually train the data that I used, Pytorch came in handy, alongside 
