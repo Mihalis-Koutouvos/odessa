@@ -1,3 +1,5 @@
+# **Odessa - A Healthcare Chatbot Designed to Educate and Self-Diagnose Users**
+
 # **Introduction:**
 Odessa is a chatbot application for the healthcare industry that utilizes a conversational approach 
 to assist the user of the app in learning more about diseases and physical injuries, certain symptoms they are going 
