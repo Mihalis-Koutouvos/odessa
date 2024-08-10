@@ -1,13 +1,12 @@
 # **Introduction:**
 Odessa is a chatbot application for the healthcare industry that utilizes a conversational approach 
-to assist the user of the app in learning more about certain symptoms they are going through and conditions 
-that they may be aware of as a result of the chatbot. That being said, Odessa aims to help users self-diagnose 
-themselves. 
+to assist the user of the app in learning more about diseases and physical injuries, certain symptoms they are going 
+through, and conditions that they may be aware of as a result of the chatbot. That being said, Odessa aims to help users
+educate themselves on common diseases and physical injuries, in addition to helping the user self-diagnose themselves. 
 
 ## **Disclaimer:**
 Keep in mind that Odessa is not an alternative to seeing an actual doctor. Please seek the 
-correct and appropriate medical professionals so that you can receive proper diagnosis and treatment. Again, Odessa 
-is a project mainly designed for proof-of-concept.
+correct and appropriate medical professionals so that you can receive proper diagnosis and treatment. 
 
 
 
@@ -75,7 +74,22 @@ here.
 
 
 ## **Testing Guide:**
-When it comes to testing, 
+When it comes to testing, I included a testing file in my project that tested a majority of the functions and methods 
+that appeared in the code. I am currently in the process of understanding how to test one of the final methods, which 
+involves mocking so that I can test random selections within the json file. I also included preliminary tests 
+throughout the project so that I could see if some functions were working correctly right after their creation. 
+
+Back to the testing file, I made various variables containing common and edge cases. From here, I created similar 
+function and method calls as the original ones but added the word "test" in front. From here, I used to the assert 
+keyword to determine if a test is correct or false. 
+
+After going through rigorous testing, I was able to determine that some of the tests, as I have mentioned, are difficult
+to implement. For instance, the get_message function is easy to test with questions that only contain one response. 
+However, I have to use mocking in order to test cases where a question or discussion lead to several possible answers. 
+The execution of these tests proved to be extensive and complex for random-response generation.
+
+Despite the rough testing caused by the get_message function, I grew a lot more experience in working with mocking 
+techniques to test the random selection of responses for chatbots and other programs utilizing similar processes.
 
 
 
