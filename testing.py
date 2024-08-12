@@ -37,6 +37,14 @@ ex_word_eight = "misdhiaiheufieuainijdf"
 ex_tokenized_text_one = ["i", "have", "a", "headache", "."]
 ex_tokenized_text_two = ["i", "do", "not", "have", "a", "headache", ",", "especially", "after", "work", "."]
 
+ex_message_one = "What is a headache?"
+ex_message_two = "What is a concussion?"
+ex_message_three = "How do you prevent a headache?"
+ex_message_fail = "I have a dog."
+ex_message_four = "I would like to talk about a potential injury."
+ex_message_five = "Could you define a headache?"
+ex_message_six = "iejienifinfs"
+
 
 
 
@@ -123,14 +131,6 @@ def test_forward_no_nan(test_odessa_model, data_input):
 
 
 
-ex_message_one = "What is a headache?"
-ex_message_two = "What is a concussion?"
-ex_message_three = "How do you prevent a headache?"
-ex_message_fail = "I have a dog."
-ex_message_four = "I would like to talk about a potential injury."
-ex_message_five = "Could you define a headache?"
-ex_message_six = "iejienifinfs"
-
 #Tests for the function get_message
 #This function only tests cases where the responses included will receive the same response, regardless of
 #how distinct they are
@@ -142,9 +142,10 @@ def test_get_message():
     assert get_message(ex_message_five) == "A headache is a condition where an individual will experience pain in the head or face that can feel constant, sharp, dull, or even like placing pressure on one’s head."
     assert get_message(ex_message_six) == "I do not understand. Could you please clarify?"
 
-sender_one = "Sam"
-
+#The following code is commented out because I am having errors with the mock tests. I am in the process
+#of trying to fix them.
 """"
+#This function only tests cases where the responses are randomly chosen
 def test_get_message_with_mock():
     ex_bot = OdessaApplication()
     question = "I would like to talk about a potential injury."
@@ -154,5 +155,3 @@ def test_get_message_with_mock():
         response = ex_bot._insert_message(question, sender_one)
         assert response == expected_response
 """
-
-

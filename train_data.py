@@ -87,7 +87,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 #Represents our loss function
 criterion = nn.CrossEntropyLoss()
 
-#Represents out Adam optimizer
+#Represents our Adam optimizer
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
 #Training loop:
@@ -126,7 +126,4 @@ torch.save(various_data_vars, SAVED_FILE)
 
 print(f'The training for Odessa has been completed. The file for it has been saved to {SAVED_FILE}.')
 
-
 #Any time I make changes to the json file, I need to run python train_data.py again
-
-

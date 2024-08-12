@@ -31,6 +31,8 @@ model.eval()
 chatbot_name = "Odessa"
 
 
+#Obtains the message typed by the user and then outputs a response. If Odessa is not able to come up
+#with a response for the user, a separate message will appear (see below)
 def get_message(message):
 
     user_dialog = tokenize_text(message)
@@ -50,18 +52,6 @@ def get_message(message):
             if tag == i["tag"]:
                 return random.choice(i["responses"])
 
+    #Run if Odessa is not able to come up with a response for the user
     else:
         return "I do not understand. Could you please clarify?"
-
-
-
-
-    #print("Hello! My name is Odessa, and I am your virtual, AI assistant that specializes in helping you diagnose conditions such as illnesses or physical injuries that you may have. Please note that although my goal is to help you self-diagnose you, I am not yet an alternative to a human doctor. Some conditions have overlapping symptoms, so additional testing may be needed in order to confidently determine what your problem may be. Severe conditions should definitely get checked out by your local doctor.")
-
-
-
-
-
-
-
-

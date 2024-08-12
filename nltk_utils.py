@@ -68,13 +68,13 @@ g = "Can you pay me $20.00?"
 #print(stem(d))
 #print(stem(e))
 
-word_list = ["Prepared", "Prepare", "Prepares"]
-stem_list = [stem_word(w) for w in word_list]
-print(stem_list)
+#word_list = ["Prepared", "Prepare", "Prepares"]
+#stem_list = [stem_word(w) for w in word_list]
+#print(stem_list)
 
 
 #Tests for bag_of_words:
-test_all_words = ["i", "like", "to", "dance", "with", "you", "!"] #Should be lowercase
-example_sentence = ["i", "eat", "pizza", "with", "sam", "."] #Should also be lowercase
-print(bag_of_words(example_sentence, test_all_words))
+#test_all_words = ["i", "like", "to", "dance", "with", "you", "!"] #Should be lowercase
+#example_sentence = ["i", "eat", "pizza", "with", "sam", "."] #Should also be lowercase
+#print(bag_of_words(example_sentence, test_all_words))
 

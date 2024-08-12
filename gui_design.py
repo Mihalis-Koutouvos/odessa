@@ -18,10 +18,11 @@ class OdessaApplication:
         self.window = Tk() #Instantiated the first instance of a window
         self._setup_main_window()
 
-    #How to run the application:
+    #This method is what runs the window of the UI to display the design of the chat
     def run(self):
         self.window.mainloop()
 
+    #This methods involves the setting up of Odessa whenever it is started up by the user
     def _setup_main_window(self):
         self.window.title("Odessa Chat")
         self.window.resizable(width=False, height=False) #Do not want the window to be resizable, so both dimensions are false
@@ -71,27 +72,20 @@ class OdessaApplication:
 
 
 
-
-
-
-
-
-
+    #
     def _on_enter_pressed(self, event):
         message = self.text_input.get() #Gets input text as a string
         self._insert_message(message, "You")
 
     def _insert_message(self, message, sender):
         if not message:
-            return #Say not text is written, this would occur
+            return #Say if not text is written, this would occur
 
         self.text_input.delete(0, END) #Remove text from input field when send it
         main_message = (f'{sender}: {message}\n\n')
         self.text_widget.config(state=NORMAL)
         self.text_widget.insert(END, main_message)
         self.text_widget.config(state=DISABLED)
-
-
 
         second_message = (f'{chatbot_name}: {get_message(message)}\n\n')
         self.text_widget.config(state=NORMAL)
@@ -101,7 +95,7 @@ class OdessaApplication:
         self.text_widget.see(END) #This scrolls to the end, so we are always able to see the last/first message.
 
 
-
+#This section ultimately is what you will use to run Odessa
 if __name__ == "__main__":
     app = OdessaApplication()
     app.run()
