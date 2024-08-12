@@ -3,7 +3,7 @@ from odessa_chat import get_message, chatbot_name
 
 #Colors for the application:
 BACKGROUND_MAIN = "#3486eb"
-BACKGROUND_SECOND = "#176b85"
+BACKGROUND_SECOND = "#eed9c4"
 TEXT_COLOR = "#EAECEE"
 
 #Fonts for the application:
@@ -35,6 +35,7 @@ class OdessaApplication:
                            text="Chat with Odessa: A Healthcare AI", font=BOLD_FONT, pady=10)
         head_label.place(relwidth=1) #relwidth is between 0 and 1, representing how much of the label will take up the location it is in
 
+
         #Divider:
         line = Label(self.window, width=450, bg=BACKGROUND_SECOND)
         line.place(relwidth=1, rely=0.07, relheight=0.012)
@@ -58,12 +59,12 @@ class OdessaApplication:
         bottom_label.place(relwidth=1, rely=0.825)
 
         #Text Input Field: Where the user will be able to enter their responses
-        self.text_input = Entry(bottom_label, bg="#79bcd1", fg=TEXT_COLOR, font=FONT)
+        self.text_input = Entry(bottom_label, bg="#808080", fg=TEXT_COLOR, font=FONT)
         self.text_input.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
         self.text_input.focus() #Whenever the app starts, the entry box is in focus/selected so that user can start typing
         self.text_input.bind("<Return>", self._on_enter_pressed) #Allows for a message to be sent
 
-        #Send Button:
+        #Send Button: How the user will be able to send messages to Odessa
         send_button = Button(bottom_label, text="Send", font=BOLD_FONT, width=20, bg=BACKGROUND_SECOND,
                              command=lambda: self._on_enter_pressed(None))
         send_button.place(relx=0.77, rely=0.008, relheight=0.06, relw=0.22)
@@ -72,22 +73,27 @@ class OdessaApplication:
 
 
 
-    #
+
+
+    #Upon the user clicking "Send," the method _insert_message is run to display the message exchange
+    #in the chat field area.
     def _on_enter_pressed(self, event):
-        message = self.text_input.get() #Gets input text as a string
+        message = self.text_input.get() #Gets input text as a string; whenever you user .get() on an Entry widget, the
+        #text within the field is what gets stored or pulled
         self._insert_message(message, "You")
 
+    #Adds the user and Odessa's messages to the chat field area
     def _insert_message(self, message, sender):
         if not message:
             return #Say if not text is written, this would occur
 
         self.text_input.delete(0, END) #Remove text from input field when send it
-        main_message = (f'{sender}: {message}\n\n')
+        main_message = (f'{sender}: {message}\n\n') #This represents the user
         self.text_widget.config(state=NORMAL)
         self.text_widget.insert(END, main_message)
         self.text_widget.config(state=DISABLED)
 
-        second_message = (f'{chatbot_name}: {get_message(message)}\n\n')
+        second_message = (f'{chatbot_name}: {get_message(message)}\n\n') #This reprents Odessa
         self.text_widget.config(state=NORMAL)
         self.text_widget.insert(END, second_message)
         self.text_widget.config(state=DISABLED)
